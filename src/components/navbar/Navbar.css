@@ -1,0 +1,56 @@
+.navbar-container {
+  flex: 1;
+  background-color: #a594f9;
+
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+}
+.admin-title {
+  flex: 8;
+  font-size: x-large;
+  color: white;
+}
+
+.updates-container {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 120%;
+}
+.navbar-icons {
+  margin-right: 15px;
+}
+
+.icons-container {
+  padding-right: 25px;
+}
+
+.icons {
+  font-size: 22px;
+  color: white;
+}
+/* Badge styling */
+.badge {
+  position: absolute;
+  margin-top: -7px;
+  margin-left: 9px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+}
+#nav-profile-img {
+  width: 17%;
+  border-radius: 100%;
+}

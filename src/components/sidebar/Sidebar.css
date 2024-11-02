@@ -1,0 +1,51 @@
+.sidebar-main {
+  margin: 10px 20px;
+}
+.menu-set {
+  display: flex;
+  flex-direction: column;
+  /* background-color: cadetblue; */
+}
+.menu-heading {
+  font-size: medium;
+  font-weight: bold;
+  color: #e5d9f2;
+}
+.menu-list {
+  margin: 10px 15px;
+  font-size: large;
+  color: #e5d9f2;
+  font-weight: 400;
+}
+.menu-list ul {
+  list-style-type: none;
+}
+
+.icon-with-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.icon-with-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 5px; /* Add padding for spacing inside the div */
+  border-radius: 50px; /* Optional: rounded corners */
+  cursor: pointer; /* Add cursor pointer for better UX */
+}
+
+/* Hover effect for background color */
+.icon-with-link:hover {
+  background-color: #a594f9; /* Set the background color on hover */
+  color: #fff; /* Optional: Change text/icon color for contrast */
+}
+
+/* Remove list-style-type from li (if needed) */
+.menu-list ul {
+  list-style-type: none;
+}
