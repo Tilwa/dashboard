@@ -9,10 +9,10 @@
 .menu-heading {
   font-size: medium;
   font-weight: bold;
-  color: #e5d9f2;
+  color: #988ea2;
 }
 .menu-list {
-  margin: 10px 15px;
+  margin: 8px 15px;
   font-size: large;
   color: #e5d9f2;
   font-weight: 400;
@@ -26,17 +26,21 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  padding-bottom: 10px;
-}
-
-.icon-with-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
   padding: 5px; /* Add padding for spacing inside the div */
   border-radius: 50px; /* Optional: rounded corners */
   cursor: pointer; /* Add cursor pointer for better UX */
+  margin-bottom: 2px;
+  text-decoration: none;
+  color: #e5d9f2;
+}
+
+.icon-with-link.active {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+.icon-with-link li {
+  margin-left: 8px;
+  list-style: none;
 }
 
 /* Hover effect for background color */
@@ -45,6 +49,11 @@
   color: #fff; /* Optional: Change text/icon color for contrast */
 }
 
+/* Active link styling */
+.icon-with-link.active {
+  background-color: #a594f9; /* Background color for active link */
+  color: #fff; /* Text/icon color for active link */
+}
 /* Remove list-style-type from li (if needed) */
 .menu-list ul {
   list-style-type: none;
