@@ -37,6 +37,7 @@ const Dashboard = () => {
         <div className="sidebar-page-container">
           <Routes>
             {/* Dashboard Related Links */}
+            <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<Home />} />
             <Route path="/dashboard/analytics" element={<Analytics />} />
             <Route path="/dashboard/sales" element={<Sales />} />
